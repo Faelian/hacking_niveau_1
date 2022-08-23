@@ -209,7 +209,7 @@ Si les données sont passées tels quel à l'application, on peut "s'échapper" 
 
 En MySQL, "`-- `" signifie "la suite est un commentaire. __/!\\ Attention à l'espace après le `--`.__
 
-Ainsi, si on rentre comme nom d'utilisateur _`admin';-- `.
+Ainsi, si on rentre comme nom d'utilisateur `admin';-- `.
 
 La requête `SELECT * FROM accounts WHERE username=$username AND password=$password;`
 
